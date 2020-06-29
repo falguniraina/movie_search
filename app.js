@@ -20,7 +20,7 @@ app.get("/results",function(req,res){
         });
     });
 
-    var port = process.env.PORT || 3000;
-    app.listen(port, function () {
-      console.log("Server Has Started!");
-    });
+    
+http.listen(process.env.PORT || 3000, function(){
+  console.log('listening on', http.address().port);
+});
