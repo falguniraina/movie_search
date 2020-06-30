@@ -19,8 +19,7 @@ app.get("/results",function(req,res){
         }
         });
     });
-
     var port = process.env.PORT || 3000;
-    app.listen(port, function () {
-      console.log("Server Has Started!");
-    });
+app.listen(port, function () {
+  console.log("Server Has Started!");
+});
